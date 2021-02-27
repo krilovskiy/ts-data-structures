@@ -1,0 +1,29 @@
+{
+  "name": "data-structures-course",
+  "version": "1.0.0",
+  "description": "data structures course",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register --watch-extensions ts 'test/**/*.spec.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purpurpur00/data-structures-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purpurpur00/data-structures-course/issues"
+  },
+  "homepage": "https://github.com/purpurpur00/data-structures-course#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.14.31",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  }
+}

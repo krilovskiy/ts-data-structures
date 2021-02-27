@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "allowJs": true,
+    "module": "commonjs",
+    //"checkJs": true,
+    "target": "es2017",
+    "declarationDir": "./typings",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "lib": [
+      "es2019"
+    ],
+    "types": [
+      "node",
+      "mocha"
+    ],
+    "outDir": "./build",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
